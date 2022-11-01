@@ -1,0 +1,127 @@
+/* TAG SELECTORS */
+body{
+    font-family: 'Space Grotesk', sans-serif;
+    margin: 0;
+    text-align: center;
+}
+h1{
+    color: #61764B;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    /* line-height: 2; */
+    margin: 50px auto 0 auto;
+}
+h2{
+    color: #61764B;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+h3{
+    color: #61764B;
+}
+
+p{
+    font-weight: 900;
+    line-height: 2;
+    padding-bottom: 30px;
+}
+hr{
+    border-style: none;
+    border-top: dotted;
+    border-color: #CFB997;
+    border-width:15px;
+    width: 5%;
+    margin: 100px auto;
+}
+a{
+    color: #CFB997;
+    text-decoration: none;
+    padding: 30px;
+    font-size: 30px;
+}
+
+
+/* CLASS SELECTORS */
+.top-container{
+    background-color: #9BA17B;
+    padding-top: 100px;
+    position: relative;
+}
+.my-picture{
+    border-radius: 50%;
+    width: 20%;
+    margin: 100px auto 20px auto;
+}
+
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+.bottom-cloud{
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+    padding: 20px 10px;
+}
+.skill1, .skill2, .skill3, .skill4{
+    width: 25%;;
+}
+
+.skill1{
+    float: left;
+    margin-right: 30px;
+}
+.skill2{
+    float: right;
+    margin-left: 30px;
+}
+.skill3{
+    float: left;
+    margin-right: 30px;
+}
+.skill4{
+    float: right;
+    margin-left: 30px;
+}
+.contact-me{
+    width: 50%;
+    margin: 100px auto;
+}
+.btn {
+    -webkit-border-radius: 14;
+    -moz-border-radius: 14;
+    border-radius: 14px;
+    font-family: 'Montserrat', sans-serif;
+    color: #61764B;;
+    font-size: 22px;
+    background: #FAD6A5;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+.btn:hover {
+    background: #CFB997;
+    text-decoration: none;
+  }
+  .bottom-container{
+    
+    background-color: #61764B;
+    color: #CFB997;
+    padding-top: 100px;
+    padding-bottom: 30px;
+  }
+  .bottom-p{
+    color: #CFB997;
+    padding-top: 100px;
+  }
+.footer-link:hover{
+    color: #FAD6A5;
+}
